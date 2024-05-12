@@ -96,8 +96,8 @@ input {
 nav li {
 	color: #DC383B;
 	text-decoration: none;
-	display: inline-block;
 	padding: 0 2%;
+	font-size: 1.5em;
 }
 
 footer {
