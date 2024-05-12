@@ -50,14 +50,6 @@ h4 {
 	color: #E48ADD;
 }
 
-nav {
-	text-align: center;
-}
-
-nav ul {
-	list-style: none;
-}
-
 table {
 	width: 80%;
 	margin: 0 auto;
@@ -93,15 +85,6 @@ input {
 	padding: 0; 
 }
 
-nav li {
-	color: #DC383B;
-	border-top: 1px #fff solid;
-	border-bottom: 1px #fff solid;
-	padding: 0 2%;
-	font-size: 1.9em;
-	text-decoration: none;
-}
-
 footer {
 	background-color: #000000;
 	display: block;
@@ -112,4 +95,23 @@ footer p {
 	font-size: .8em;
 	text-align: center;
 	color: #7B1113;
+}
+
+nav {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	color: #DC383B;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+	padding: 0 2%;
+	font-size: 1.8em;
+	text-decoration: none;
 }
