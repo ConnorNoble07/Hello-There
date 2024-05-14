@@ -11,8 +11,7 @@
 body {
 	background-color: #7B1113;
 	color: #000;
-	font-family: "Flower Power";
-	
+	font-family: "Comic Sans", Helvetica, Times, Arial;
 }
 
 header {
@@ -42,8 +41,18 @@ h3 {
 	text-align: center;
 }
 
+h5 {
+	font-size: .95em;
+	text-align: center;
+	color: #7B1113;
+}
+
 h4 {
 	font-size: 1.2em;
+}
+
+#songs {
+	padding: 0 2%
 }
 
 .song {
