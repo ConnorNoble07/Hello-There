@@ -71,7 +71,7 @@ h4 {
 
 .song {
 	text-decoration: none;
-	color: #2C0703;
+	color: #FEC9F1;
 }
 
 table {
@@ -104,13 +104,13 @@ input {
 	font-weight: bold;
 	background-color: #A01A7D;
 	color: #000;
-	border: 5px inset #2C0703;
+	border: 5px inset #FEC9F1;
 	text-align: center;
 	padding: 0; 
 }
 
 footer {
-	background-color: #000;
+	background-color: #7FDEFF;
 	display: block;
 	margin: 0 auto;
 }
@@ -118,7 +118,7 @@ footer {
 footer p {
 	font-size: .8em;
 	text-align: center;
-	color: #7FDEFF;
+	color: #000;
 }
 
 nav {
@@ -132,7 +132,7 @@ nav ul {
 }
 
 nav li {
-	color: #2C0703;
+	color: #FEC9F1;
 	border-top: 1px #fff solid;
 	border-bottom: 1px #fff solid;
 	padding: 0 2%;
