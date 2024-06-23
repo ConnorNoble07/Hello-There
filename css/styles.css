@@ -102,9 +102,9 @@ input {
 	border-radius: 25px;
 	font-size: 1.4em;
 	font-weight: bold;
-	background-color: #000000;
-	color: #D0282B;
-	border: 5px inset #977205;
+	background-color: #A01A7D;
+	color: #000;
+	border: 5px inset #2C0703;
 	text-align: center;
 	padding: 0; 
 }
