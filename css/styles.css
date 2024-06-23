@@ -110,7 +110,7 @@ input {
 }
 
 footer {
-	background-color: #000000;
+	background-color: #000;
 	display: block;
 	margin: 0 auto;
 }
@@ -118,7 +118,7 @@ footer {
 footer p {
 	font-size: .8em;
 	text-align: center;
-	color: #7B1113;
+	color: #7FDEFF;
 }
 
 nav {
@@ -132,7 +132,7 @@ nav ul {
 }
 
 nav li {
-	color: #DC383B;
+	color: #2C0703;
 	border-top: 1px #fff solid;
 	border-bottom: 1px #fff solid;
 	padding: 0 2%;
