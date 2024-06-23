@@ -1,5 +1,19 @@
 /* CSS Document */
 
+/******** 
+
+Colour Palette: 
+#2C0703 (Deep Red)
+#E92ACA (Lighter Pink)
+#A01A7D (Core Pink)
+#7FDEFF (Blue)
+#FEC9F1 (Purple)
+#000 (Black)
+#fff (White)
+
+*********/
+
+
 /* RESET */
 * {
 	border: 0;
@@ -9,14 +23,14 @@
 }
 
 body {
-	background-color: #7B1113;
+	background-color: #A01A7D;
 	color: #000;
 	font-family: "Comic Sans", Helvetica, Times, Arial;
 }
 
 header {
-	background-color: #000;
-	color: #7B1113;
+	background-color: #7FDEFF;
+	color: #fff;
 }
 
 img {
@@ -57,7 +71,7 @@ h4 {
 
 .song {
 	text-decoration: none;
-	color: #E48ADD;
+	color: #2C0703;
 }
 
 table {
