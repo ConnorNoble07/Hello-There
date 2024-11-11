@@ -1,19 +1,5 @@
 /* CSS Document */
 
-/******** 
-
-Colour Palette: 
-#2C0703 (Deep Red)
-#E92ACA (Lighter Pink)
-#A01A7D (Core Pink)
-#7FDEFF (Blue)
-#FEC9F1 (Purple)
-#000 (Black)
-#fff (White)
-
-*********/
-
-
 /* RESET */
 * {
 	border: 0;
@@ -23,13 +9,13 @@ Colour Palette:
 }
 
 body {
-	background-color: #A01A7D;
+	background-color: #640c1b;
 	color: #000;
 	font-family: "Comic Sans", Helvetica, Times, Arial;
 }
 
 header {
-	background-color: #7FDEFF;
+	background-color: #0e3717;
 	color: #fff;
 }
 
@@ -37,6 +23,25 @@ img {
 	padding: 2%;
 	float: left;
 	width: 30%;
+}
+
+nav {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	color: #35a9a1;
+	border-top: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	padding: 0 2%;
+	font-size: 1.8em;
+	text-decoration: none;
 }
 
 h1 {
@@ -65,6 +70,16 @@ h4 {
 	font-size: 1.2em;
 }
 
+.two {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.three {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
 #songs {
 	padding: 0 2%
 }
@@ -81,6 +96,8 @@ table {
 	border-collapse: collapse;
 	padding: 0;
 	text-align: center;
+	background-color: #c26565;
+	max-width: 600px;
 }
 
 td {
@@ -102,15 +119,16 @@ input {
 	border-radius: 25px;
 	font-size: 1.4em;
 	font-weight: bold;
-	background-color: #A01A7D;
+	background-color: #fff;
 	color: #000;
-	border: 5px inset #FEC9F1;
+	border: 5px inset #1a1874;
 	text-align: center;
 	padding: 0; 
 }
 
 footer {
-	background-color: #7FDEFF;
+	clear: both;
+	background-color: #0e3717;
 	display: block;
 	margin: 0 auto;
 }
@@ -121,21 +139,25 @@ footer p {
 	color: #000;
 }
 
-nav {
-	text-align: center;
-	width: 85%;
-	margin: 0 auto;
-}
+@media (min-width: 769px) {
+	nav ul {
+		list-style: none;
+	}
+	
+	nav li {
+		color: #35a9a1;
+		border: none;
+		padding: 0 2%;
+		font-size: 1.4em;
+		text-decoration: none;
+		display: inline-flex;
+	}
 
-nav ul {
-	list-style: none;
-}
-
-nav li {
-	color: #FEC9F1;
-	border-top: 1px #fff solid;
-	border-bottom: 1px #fff solid;
-	padding: 0 2%;
-	font-size: 1.8em;
-	text-decoration: none;
+	.web-nav {
+		display: flex;
+    	justify-content: flex-end;
+   		align-items: center;
+    	padding: 20px 50px;
+		box-shadow: 0 1px 8px #fff;
+	}
 }
