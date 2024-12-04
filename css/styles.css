@@ -9,13 +9,13 @@
 }
 
 body {
-	background-color: #640c1b;
+	background-color: #FFC5D3;
 	color: #000;
-	font-family: "Comic Sans", Helvetica, Times, Arial;
+	font-family: "Comic Sans", Helvetica, Times, Arial, sans-serif;
 }
 
 header {
-	background-color: #0e3717;
+	background-color: #4f0048;
 	color: #fff;
 }
 
@@ -86,7 +86,7 @@ h4 {
 
 .song {
 	text-decoration: none;
-	color: #FEC9F1;
+	color: #000;
 }
 
 table {
@@ -96,7 +96,7 @@ table {
 	border-collapse: collapse;
 	padding: 0;
 	text-align: center;
-	background-color: #c26565;
+	background-color: #a64c79;
 	max-width: 600px;
 }
 
@@ -128,7 +128,7 @@ input {
 
 footer {
 	clear: both;
-	background-color: #0e3717;
+	background-color: #de92b8;
 	display: block;
 	margin: 0 auto;
 }
@@ -139,14 +139,13 @@ footer p {
 	color: #000;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1020px) {
 	nav ul {
 		list-style: none;
 	}
 	
 	nav li {
-		color: #35a9a1;
-		border: none;
+	        border: none;
 		padding: 0 2%;
 		font-size: 1.4em;
 		text-decoration: none;
