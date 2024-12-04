@@ -36,11 +36,11 @@ nav ul {
 }
 
 nav li {
-	color: #35a9a1;
+	color: #967AA1;
 	border-top: 1px #000 solid;
 	border-bottom: 1px #000 solid;
 	padding: 0 2%;
-	font-size: 1.8em;
+	font-size: 2.5em;
 	text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ input {
 
 footer {
 	clear: both;
-	background-color: #de92b8;
+	background-color: #4f0048;
 	display: block;
 	margin: 0 auto;
 }
