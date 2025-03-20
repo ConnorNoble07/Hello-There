@@ -9,13 +9,14 @@
 }
 
 body {
-	background-color: #FFC5D3;
-	color: #000;
+	background-color: #2f051f;
+	color: #fff;
 	font-family: "Comic Sans", Helvetica, Times, Arial, sans-serif;
 }
 
 header {
-	background-color: #de92b8;
+	background-color: #3b7e1b;
+	border-bottom: #c19614 10px solid;
 	color: #fff;
 }
 
@@ -23,6 +24,7 @@ img {
 	padding: 2%;
 	float: left;
 	width: 30%;
+	border-radius: 50px;
 }
 
 nav {
@@ -36,11 +38,10 @@ nav ul {
 }
 
 nav a li {
-	color: #967AA1;
-	border-top: 1px #000 solid;
-	border-bottom: 1px #000 solid;
-	padding: 0 2%;
-	font-size: 2.5em;
+	color: #c19614;
+	display: inline-block;
+	padding: 2%;
+	font-size: 1.75em;
 	text-decoration: none;
 }
 
@@ -48,15 +49,22 @@ p {
 	padding-left: 2%;
 }
 
+p a {
+	color: #c19614;
+}
+
 h1 {
+	padding: 3% 0 2% 0;
 	font-size: 2.5em;
 	text-align: center;
+	color: #33c787
 }
 
 h2 {
 	font-size: 1.8em;
 	padding-top: 2%;
 	text-align: center;
+	color: #3e61b4;
 }
 
 h3 {
@@ -77,6 +85,7 @@ h4 {
 .two {
 	font-size: 2em;
 	font-weight: bolder;
+	color: #3e61b4;
 }
 
 .three {
@@ -90,51 +99,15 @@ h4 {
 
 .song {
 	text-decoration: none;
-	color: #000;
-}
-
-table {
-	width: 80%;
-	margin: 0 auto;
-	border: solid  1px;
-	border-collapse: collapse;
-	padding: 0;
-	text-align: center;
-	background-color: #a64c79;
-	max-width: 600px;
-}
-
-td {
-	padding: 10px 0;
-	text-align: center;
-	border: solid 1px;
-	border-collapse: collapse;
-}
-
-label {
-	padding: 25px 0;
-	font-size: 1.5em;
-	text-align: center;
-}
-
-input {
-	height: 1.6em;
-	width: 9.8em;
-	border-radius: 25px;
-	font-size: 1.4em;
-	font-weight: bold;
-	background-color: #fff;
-	color: #000;
-	border: 5px inset #1a1874;
-	text-align: center;
-	padding: 0; 
+	color: #c19614;
 }
 
 footer {
 	clear: both;
-	background-color: #de92b8;
+	background-color: #3b7e1b;
 	display: block;
 	margin: 0 auto;
+	border-top: #c19614 10px solid;
 }
 
 footer p {
@@ -143,24 +116,9 @@ footer p {
 	color: #000;
 }
 
-@media (min-width: 1020px) {
-	nav ul {
-		list-style: none;
-	}
-	
-	nav li {
-	        border: none;
-		padding: 0 2%;
-		font-size: 1.4em;
-		text-decoration: none;
-		display: inline-flex;
-	}
-
-	.web-nav {
-		display: flex;
-    	justify-content: flex-end;
-   		align-items: center;
-    	padding: 20px 50px;
-		box-shadow: 0 1px 8px #fff;
-	}
+footer nav a li {
+	display: inline-block;
+	padding: 2%;
+	font-size: 1.5em;
+	text-decoration: none;
 }
